@@ -4,12 +4,12 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.chrome.options import Options 
 import time
 
-PATH = "/home/hackrimony/Videos/yeah/chromedriver"
+PATH = "~/chromedriver"
 
 
 
 
-extension_path = '/home/hackrimony/Desktop/extension_2_7_0_0.crx'
+extension_path = '~/extension_2_7_0_0.crx'
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_extension(extension_path)
 driver = webdriver.Chrome(executable_path=PATH, chrome_options=chrome_options) 
