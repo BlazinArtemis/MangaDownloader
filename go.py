@@ -6,7 +6,7 @@ import time
 
 PATH = "~/chromedriver"
 
-
+a=2
 
 
 extension_path = '~/extension_2_7_0_0.crx'
